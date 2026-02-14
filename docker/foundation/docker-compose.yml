@@ -1,0 +1,25 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres:16
+    container_name: ai_book_postgres
+    environment:
+      POSTGRES_USER: ai_user
+      POSTGRES_PASSWORD: ai_password
+      POSTGRES_DB: ai_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  adminer:
+    image: adminer:latest
+    container_name: ai_book_adminer
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
+
+volumes:
+  postgres_data:
