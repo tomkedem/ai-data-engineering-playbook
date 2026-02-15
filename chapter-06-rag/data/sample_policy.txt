@@ -1,0 +1,13 @@
+# LogiSmart Driver Policy 2026
+
+## 1. Speed Limits
+Drivers must not exceed 90 km/h on highways, regardless of local signs.
+In urban areas, the limit is strictly 30 km/h.
+
+## 2. Break Times
+Every 4 hours of driving requires a mandatory 45-minute break.
+Breaks must be logged in the app.
+
+## 3. Emergency Protocol
+In case of an accident, press the Red Button on the dashboard immediately.
+Do not exit the vehicle until instructed by support.
