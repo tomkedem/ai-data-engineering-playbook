@@ -20,12 +20,19 @@ ENV/
 *.env
 
 # ---- Chroma / vector DB persistence ----
+# שמות נפוצים לתיקיות של כרומה
 chroma_db/
-*.chroma
+.chroma_db/
+.chromadb/
+chromadb/
+
+# קבצים בינאריים ספציפיים (ליתר ביטחון)
+*.bin
+*.parquet
 
 # ---- Logs / temp ----
 *.log
 *.tmp
 
-# ---- Jupyter / notebooks (אם תעבוד איתם בהמשך) ----
+# ---- Jupyter / notebooks ----
 .ipynb_checkpoints/
