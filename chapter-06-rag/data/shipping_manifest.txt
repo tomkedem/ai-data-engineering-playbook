@@ -1,0 +1,4 @@
+SHIPMENT ID: LS-2026-X
+CONTENTS: High-End Glassware
+STATUS: Fragile
+INSURANCE: Full Coverage
